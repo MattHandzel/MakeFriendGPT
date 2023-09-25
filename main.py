@@ -371,13 +371,11 @@ if __name__ == "__main__":
       
       data = copy_a_chat()
 
-      prompt = "Hey ChatGPT, your goal is to continue what the character \"ME\" would say next in following conversation \
-        ME is trying to make friends with the other person. ME is very funny, a good listener, and talks casually. IMPORTANT: Only respond with what ME would say next\
-          \n Here is the conversation so far. \n------START OF DATA-----\n"
+      prompt = "Your instruction is to continue what the character \"ME\" would say next in following conversation ME is trying to make friends with the other person. ME is very funny, a good listener, and talks casually. IMPORTANT: Only respond with what ME would say next\n The conversaion is delimited in triple backticks\n ```"
       
       # Get the last N words in the conversation (can be changed if using different models for better context)
       prompt +=  " ".join(data.split(" ")[-500:]) 
-      prompt += "\n------END OF DATA-----\n"
+      prompt += "```\n"
 
       # Debug statement to see that the code is working
       print("Asking the following question to ChatGPT:\n", prompt, "\n")
