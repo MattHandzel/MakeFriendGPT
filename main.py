@@ -215,7 +215,7 @@ def start_new_conversations_if_there_is_a_new_person():
     name = chat.split("\n")[0]
 
     # Add the name to the whitelist
-    out_file = open("experimentWhitelist.json", "w")
+    out_file = open("whitelist.json", "w")
     whitelist.append(name)
     json.dump(whitelist, out_file, indent=1)
     out_file.close()
@@ -301,7 +301,7 @@ def collect_data_on_people_who_stopped_talked_with_you():
       print("THERE WAS AN ERROR REMOVING:", name,"\t" , e)
     
     # Remove the name to the whitelist
-    with open("experimentWhitelist.json", "w") as out_file:
+    with open("whitelist.json", "w") as out_file:
       json.dump(whitelist, out_file, indent=1)
       out_file.close()
     return len(people_who_left_on_opened)
@@ -328,7 +328,7 @@ if __name__ == "__main__":
       ]
 
   global whitelist # People the bot is able to talk to
-  whitelist = json.load(open("./experimentWhitelist.json", "r"))
+  whitelist = json.load(open("./whitelist.json", "r"))
 
   bot = ChatGPT()
 
