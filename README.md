@@ -34,7 +34,7 @@ Now you are set to run the program!
 #### Usage
 
 Open snapchat in a new tab, and then run the program! The following video has VSCode on the right side for debugging, but it works in fullscreen too!
-
+![Demo](https://github.com/MattHandzel/MakeFriendGPT/assets/39449480/11a69196-d25f-4305-b688-cd89ee6891d2)
 
 ## How it works???
 It might be surprising to believe that such a revolution in your social life can be done in a single python script, but it is!
