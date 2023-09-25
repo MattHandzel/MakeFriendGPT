@@ -56,11 +56,8 @@ This script uses a ChatGPT wrapper to send prompts to ChatGPT and receive messag
 2. If there is a new chat, check to see if the name of that person is in whitelist.json
 3. If so, continue to step 4, else continue to step 1
 4. Open the chat and copy what the user and the other person were saying into the clipboard, use pyperclip to send that data to ChatGPT
-5. Send the conversation to ChatGPT, with the following prompt: 
-```txt
-"Your instruction is to continue what the character \"ME\" would say next in following conversation ME is trying to make friends with the other person. ME is very funny, a good listener, and talks casually. IMPORTANT: Only respond with what ME would say next\n The conversaion is delimited in triple backticks\n ```{conversation}```"   
-```
-Where *conversation* is the current conversation
+5. Send the conversation to ChatGPT, with the following prompt: ```txt
+"Your instruction is to continue what the character \"ME\" would say next in following conversation ME is trying to make friends with the other person. ME is very funny, a good listener, and talks casually. IMPORTANT: Only respond with what ME would say next\n The conversaion is delimited in triple backticks\n ```{conversation}```"   ```Where *conversation* is the current conversation
 6. When response is received, parse response
 7. Send response to soon-to-be-friend
 8. Close chat and wait again
