@@ -77,7 +77,7 @@ This graphs shows the length of the message sent by ChatGPT and the response rec
 In case you are wondering how some of these conversations went, I chose a representative short conversation and long conversation:
 
 ###### Short Convo
-``` re
+``` 
 [ME]
 Hey [NAME], I saw you on quick add and I thought you'd be an interesting person to talk to, so I added you. What's up?
 YOU ARE USING SNAPCHAT ON WEB
@@ -100,8 +100,8 @@ I'm sorry if I came off as rude or offended you in any way. That wasn't my inten
 ```
 
 ###### Long Convo
-``` re
-[ME]
+``` txt
+\033[1;32mME:\033[0m Hi there!
 Hey [NAME], What's up?
 [NAME]
 Nm wbu 
