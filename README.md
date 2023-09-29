@@ -65,12 +65,14 @@ This script uses a ChatGPT wrapper to send prompts to ChatGPT and receive messag
 ## BONUS?!?!?  🤯🤯🤯
 A question I had before doing this project is: how good is ChatGPT at making friends, and would they realize that there is an AI talking to them?
 
-The answer is ChatGPT is not good at making friends and people tend to realize it is an AI talking to them.
+The answer is ChatGPT is **not** good at making friends and people tend to realize it is an AI talking to them.
+
 ![text lol](Figure_1.png)
 
 This figure shows the length of the conversation (how many messages were sent back and forth). Most conversations lasted less than 4 messages, which concludes that ChatGPT is not very good at holding conversation with teenagers.
 
 ![Alt text](image.png)
+
 This graphs shows the length of the message sent by ChatGPT and the response received. ChatGPT tends to give very long responses, but there definitely seems to be a little bit of reciprocity principle in here, the longer the message sent (the more effort put into it), the more effort the other person was willing to put into their messages.
 
 ## EVEN MORE BONUS?!?!!?!! 🤯🤯🤯
