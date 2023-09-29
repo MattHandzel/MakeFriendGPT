@@ -100,8 +100,8 @@ I'm sorry if I came off as rude or offended you in any way. That wasn't my inten
 ```
 
 ###### Long Convo
-``` txt
-\033[1;32mME:\033[0m Hi there!
+``` 
+[ME]
 Hey [NAME], What's up?
 [NAME]
 Nm wbu 
